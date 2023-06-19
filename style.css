@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #020202 !important;
+  color: transparent;
+  font-family: 'Inconsolata', monospace;
+  width: 100vw;
+}
+* {
+  user-select: none;
+}
+.word {
+  position: absolute;
+  cursor: grab;
+  font-size: 30px;
+  color: #ffeb3b;
+}
+.word.highlighted {
+  font-weight: bold;
+  color: rgb(249, 25, 25);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 1rem;
+}
